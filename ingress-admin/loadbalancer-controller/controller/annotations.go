@@ -23,12 +23,18 @@ const (
 	// that provisioning has not yet occurred.
 	ingressProvisioningRequiredAnnotationKey    = "ingress.alpha.k8s.io/provisioning-required"
 	ingressProvisioningCompletedAnnotationValue = "ingress.alpha.k8s.io/provisioning-completed"
-	ingressProvisioningFailedAnnotationValue 	= "ingress.alpha.k8s.io/provisioning-failed"
+	ingressProvisioningFailedAnnotationValue    = "ingress.alpha.k8s.io/provisioning-failed"
 
-	IngressProvisioningClassKey   = "ingress.alpha.k8s.io/ingress-class"
+	IngressProvisioningClassKey = "ingress.alpha.k8s.io/ingress-class"
 
-	ingressParameterCPUKey = "ingress.alpha.k8s.io/ingress-cpu"
-	ingressParameterMEMKey = "ingress.alpha.k8s.io/ingress-mem"
-	IngressParameterVIPKey = "ingress.alpha.k8s.io/ingress-vip"
+	ingressParameterCPUKey  = "ingress.alpha.k8s.io/ingress-cpu"
+	ingressParameterMEMKey  = "ingress.alpha.k8s.io/ingress-mem"
+	IngressParameterVIPKey  = "ingress.alpha.k8s.io/ingress-vip"
+	IngressParameterVRIDKey = "ingress.alpha.k8s.io/ingress-vrid"
+
+	ingressParameterClusterNameKey           = "ingress.alpha.k8s.io/cluster-name"
+	ingressParameterAliyunAccessKeyIDKey     = "ingress.alpha.k8s.io/aliyun-access-key-id"
+	ingressParameterAliyunAccessKeySecretKey = "ingress.alpha.k8s.io/aliyun-access-key-secret"
+	ingressParameterAliyunRegionIDKey        = "ingress.alpha.k8s.io/aliyun-region-id"
+	ingressParameterAliyunZoneIDKey          = "ingress.alpha.k8s.io/aliyun-zone-id"
 )
-
